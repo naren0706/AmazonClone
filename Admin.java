@@ -135,7 +135,7 @@ public class Admin {
         // company[serialNumber].product5 = MerchantAdmin.product5();
 
         merchantNameSerialNumber.put((String) company[serialNumber].name, serialNumber);
-        merchantNamePassword.put((String) company[serialNumber].name, "p");
+        merchantNamePassword.put((String) company[serialNumber].name, "password");
 
         System.out.println("The merchant has been added successfuly");
 
